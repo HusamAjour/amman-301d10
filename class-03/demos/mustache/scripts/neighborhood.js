@@ -41,8 +41,8 @@ Neighborhood.prototype.toHtml = function() {
   let template = $('#neighborhood-template').html();
   console.log(template);
   console.log(this);
-  let html = Mustache.render(template,this); //(string,object)
-  return html;
+  let cardHtml = Mustache.render(template,this); //(string,object)
+  return cardHtml;
 
 };
 
